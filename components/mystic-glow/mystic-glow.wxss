@@ -1,0 +1,3 @@
+.mystic-glow { position: absolute; pointer-events: none; border-radius: 9999rpx; filter: blur(38rpx); animation: breatheGlow 6.8s ease-in-out infinite; }
+.mystic-glow--large { width: 520rpx; height: 520rpx; background: radial-gradient(circle, rgba(212,175,55,0.22), rgba(139,92,246,0.10) 42%, transparent 70%); }
+.mystic-glow--small { width: 220rpx; height: 220rpx; background: radial-gradient(circle, rgba(96,165,250,0.18), transparent 70%); }

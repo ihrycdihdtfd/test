@@ -1,0 +1,36 @@
+page {
+  --color-bg-950: #0B1020;
+  --color-bg-900: #0F172A;
+  --color-bg-850: #111827;
+  --color-gold: #D4AF37;
+  --color-gold-soft: #C8A96A;
+  --color-blue: #60A5FA;
+  --color-purple: #8B5CF6;
+  --color-success: #34D399;
+  --color-text-primary: #F8FAFC;
+  --color-text-secondary: #CBD5E1;
+  --color-text-muted: #94A3B8;
+  --color-border-subtle: rgba(255, 255, 255, 0.08);
+  --color-border-strong: rgba(255, 255, 255, 0.12);
+  --radius-sm: 12rpx;
+  --radius-card: 40rpx;
+  --radius-core: 48rpx;
+  --radius-orbit: 64rpx;
+  --shadow-card: 0 20rpx 60rpx rgba(0, 0, 0, 0.20);
+  --shadow-float: 0 36rpx 80rpx rgba(0, 0, 0, 0.28);
+  --space-1: 8rpx;
+  --space-2: 16rpx;
+  --space-3: 24rpx;
+  --space-4: 32rpx;
+  --space-5: 40rpx;
+  --space-6: 48rpx;
+  --space-8: 64rpx;
+  --space-10: 80rpx;
+  --space-12: 96rpx;
+  --font-hero: 60rpx;
+  --font-page-title: 36rpx;
+  --font-card-title: 22rpx;
+  --font-body: 16rpx;
+  --font-caption: 13rpx;
+  --ease-premium: cubic-bezier(0.22, 1, 0.36, 1);
+}

@@ -1,0 +1,6 @@
+.card-frame { position: relative; border: 1rpx solid rgba(200,169,106,0.20); border-radius: var(--radius-core); }
+.card-frame__corner { position: absolute; width: 22rpx; height: 22rpx; border-color: rgba(212,175,55,0.52); }
+.card-frame__corner--tl { top: 18rpx; left: 18rpx; border-top: 1rpx solid; border-left: 1rpx solid; }
+.card-frame__corner--tr { top: 18rpx; right: 18rpx; border-top: 1rpx solid; border-right: 1rpx solid; }
+.card-frame__corner--bl { bottom: 18rpx; left: 18rpx; border-bottom: 1rpx solid; border-left: 1rpx solid; }
+.card-frame__corner--br { right: 18rpx; bottom: 18rpx; border-right: 1rpx solid; border-bottom: 1rpx solid; }

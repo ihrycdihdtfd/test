@@ -1,0 +1,18 @@
+<view class="destiny-ring" aria-label="命盘圆盘">
+  <view class="destiny-ring__halo" />
+  <view class="destiny-ring__outer">
+    <view class="destiny-ring__mark destiny-ring__mark--one" />
+    <view class="destiny-ring__mark destiny-ring__mark--two" />
+    <view class="destiny-ring__mark destiny-ring__mark--three" />
+    <view class="destiny-ring__mark destiny-ring__mark--four" />
+  </view>
+  <view class="destiny-ring__middle">
+    <view class="destiny-ring__axis destiny-ring__axis--a" />
+    <view class="destiny-ring__axis destiny-ring__axis--b" />
+    <view class="destiny-ring__axis destiny-ring__axis--c" />
+  </view>
+  <view class="destiny-ring__core">
+    <text class="destiny-ring__glyph">命</text>
+    <text class="destiny-ring__caption">FATE ORBIT</text>
+  </view>
+</view>

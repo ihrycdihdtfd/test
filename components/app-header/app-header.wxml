@@ -1,0 +1,13 @@
+<view class="app-header">
+  <view class="app-header__brand">
+    <view class="app-header__seal">命</view>
+    <view class="app-header__copy">
+      <text class="app-header__title">{{title}}</text>
+      <text class="app-header__sub">FATE RESTART</text>
+    </view>
+  </view>
+  <view class="app-header__nav">
+    <text>命盘</text>
+    <text>结局</text>
+  </view>
+</view>

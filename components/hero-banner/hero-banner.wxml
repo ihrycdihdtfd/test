@@ -1,0 +1,17 @@
+<view class="hero-banner">
+  <particle-background />
+  <mystic-glow size="large" class="hero-banner__glow" />
+  <view class="hero-banner__visual">
+    <destiny-ring />
+  </view>
+  <view class="hero-banner__content">
+    <text class="hero-banner__eyebrow">QUIET RITUAL OF FATE</text>
+    <text class="hero-banner__title">命运重开模拟器 2.0</text>
+    <text class="hero-banner__subtitle">抽一张命盘，走一段人生，看一场结局。</text>
+    <text class="hero-banner__desc">每一次选择，都会改写你的命运线。</text>
+    <view class="hero-banner__actions">
+      <primary-button label="立即重开" bind:action="handleRestart" />
+      <secondary-button label="查看今日命盘" bind:action="handleDaily" />
+    </view>
+  </view>
+</view>

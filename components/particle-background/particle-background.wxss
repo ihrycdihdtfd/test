@@ -1,0 +1,4 @@
+.particle-background { position: absolute; inset: 0; overflow: hidden; pointer-events: none; }
+.particle { position: absolute; width: 5rpx; height: 5rpx; border-radius: 999rpx; background: rgba(248,250,252,0.72); box-shadow: 0 0 24rpx rgba(212,175,55,0.36); animation: floatParticle 7.2s ease-in-out infinite; }
+.particle:nth-child(2n) { background: rgba(200,169,106,0.76); }
+.particle:nth-child(3n) { width: 3rpx; height: 3rpx; background: rgba(96,165,250,0.68); }

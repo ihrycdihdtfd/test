@@ -1,0 +1,10 @@
+{
+  "component": true,
+  "usingComponents": {
+    "destiny-ring": "/components/destiny-ring/destiny-ring",
+    "primary-button": "/components/primary-button/primary-button",
+    "secondary-button": "/components/secondary-button/secondary-button",
+    "particle-background": "/components/particle-background/particle-background",
+    "mystic-glow": "/components/mystic-glow/mystic-glow"
+  }
+}

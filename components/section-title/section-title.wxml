@@ -1,0 +1,5 @@
+<view class="section-title">
+  <text class="section-title__eyebrow">{{eyebrow}}</text>
+  <text class="section-title__title">{{title}}</text>
+  <text class="section-title__caption">{{caption}}</text>
+</view>
