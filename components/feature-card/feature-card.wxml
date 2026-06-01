@@ -1,0 +1,8 @@
+<view class="feature-card" hover-class="feature-card--hover">
+  <view class="feature-card__icon">{{feature.icon}}</view>
+  <view class="feature-card__content">
+    <text class="feature-card__title">{{feature.title}}</text>
+    <text class="feature-card__subtitle">{{feature.subtitle}}</text>
+    <text class="feature-card__desc">{{feature.description}}</text>
+  </view>
+</view>

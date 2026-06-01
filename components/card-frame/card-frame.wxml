@@ -1,0 +1,7 @@
+<view class="card-frame">
+  <view class="card-frame__corner card-frame__corner--tl" />
+  <view class="card-frame__corner card-frame__corner--tr" />
+  <view class="card-frame__corner card-frame__corner--bl" />
+  <view class="card-frame__corner card-frame__corner--br" />
+  <slot />
+</view>

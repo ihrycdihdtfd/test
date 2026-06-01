@@ -1,0 +1,20 @@
+.home-page { min-height: 100vh; overflow: hidden; background: radial-gradient(circle at 20% 8%, rgba(139,92,246,0.10), transparent 28%), linear-gradient(180deg, #0B1020 0%, #0F172A 46%, #111827 100%); }
+.home-page__content { padding: 88rpx 32rpx 72rpx; animation: pageFadeUp 900ms var(--ease-premium) 240ms both; }
+.feature-grid { display: flex; flex-direction: column; gap: 24rpx; }
+.home-section { margin-top: 112rpx; }
+.home-section--flow { margin-top: 128rpx; }
+.flow-card { padding: 20rpx 18rpx 34rpx; }
+.tag-cloud { display: flex; flex-wrap: wrap; gap: 18rpx; justify-content: center; max-width: 680rpx; margin: 0 auto; }
+.daily-section { margin-bottom: 96rpx; }
+.daily-panel { position: relative; padding: 40rpx 32rpx 34rpx; border-radius: var(--radius-core); background: linear-gradient(145deg, rgba(255,255,255,0.07), rgba(255,255,255,0.025)); }
+.daily-panel__header { display: flex; align-items: center; justify-content: space-between; padding-bottom: 28rpx; margin-bottom: 28rpx; border-bottom: 1rpx solid var(--color-border-subtle); }
+.daily-panel__label { color: var(--color-text-primary); font-size: 34rpx; font-weight: 700; }
+.daily-panel__date { color: var(--color-gold-soft); font-size: 23rpx; letter-spacing: 2rpx; }
+.daily-list { display: flex; flex-direction: column; gap: 18rpx; }
+.daily-item { display: flex; align-items: center; justify-content: space-between; min-height: 92rpx; padding: 0 26rpx; border: 1rpx solid rgba(255,255,255,0.08); border-radius: 28rpx; background: rgba(255,255,255,0.035); }
+.daily-item--gold { box-shadow: inset 3rpx 0 0 rgba(212,175,55,0.72); }
+.daily-item--blue { box-shadow: inset 3rpx 0 0 rgba(96,165,250,0.72); }
+.daily-item--purple { box-shadow: inset 3rpx 0 0 rgba(139,92,246,0.72); }
+.daily-item__label { color: var(--color-text-muted); font-size: 24rpx; }
+.daily-item__value { color: var(--color-text-primary); font-size: 27rpx; font-weight: 620; }
+.home-footer { display: flex; flex-direction: column; gap: 12rpx; align-items: center; padding-top: 48rpx; color: var(--color-text-muted); font-size: 22rpx; line-height: 1.7; text-align: center; border-top: 1rpx solid rgba(255,255,255,0.06); }

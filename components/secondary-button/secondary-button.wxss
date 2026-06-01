@@ -1,0 +1,14 @@
+.secondary-button {
+  min-width: 224rpx;
+  height: 88rpx;
+  padding: 0 40rpx;
+  color: var(--color-text-secondary);
+  font-size: 28rpx;
+  letter-spacing: 1rpx;
+  border: 1rpx solid var(--color-border-strong);
+  border-radius: 999rpx;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(18rpx);
+  transition: transform 260ms var(--ease-premium), border-color 260ms var(--ease-premium), background 260ms var(--ease-premium);
+}
+.secondary-button--hover { transform: scale(0.97); border-color: rgba(200,169,106,0.42); background: rgba(212,175,55,0.08); }

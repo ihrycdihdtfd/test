@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/home/home"
+  ],
+  "window": {
+    "navigationStyle": "custom",
+    "backgroundColor": "#0B1020",
+    "backgroundTextStyle": "dark"
+  },
+  "style": "v2",
+  "renderer": "skyline",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json"
+}

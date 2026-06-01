@@ -1,0 +1,13 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "app-header": "/components/app-header/app-header",
+    "hero-banner": "/components/hero-banner/hero-banner",
+    "feature-card": "/components/feature-card/feature-card",
+    "step-flow": "/components/step-flow/step-flow",
+    "fate-tag": "/components/fate-tag/fate-tag",
+    "section-title": "/components/section-title/section-title",
+    "glass-card": "/components/glass-card/glass-card",
+    "card-frame": "/components/card-frame/card-frame"
+  }
+}

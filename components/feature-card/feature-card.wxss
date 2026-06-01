@@ -1,0 +1,7 @@
+.feature-card { min-height: 276rpx; padding: 32rpx; border: 1rpx solid var(--color-border-subtle); border-radius: var(--radius-card); background: linear-gradient(145deg, rgba(255,255,255,0.075), rgba(255,255,255,0.025)); box-shadow: var(--shadow-card); transition: transform 300ms var(--ease-premium), box-shadow 300ms var(--ease-premium), border-color 300ms var(--ease-premium); }
+.feature-card--hover { transform: translateY(-8rpx); border-color: rgba(200,169,106,0.28); box-shadow: var(--shadow-float); }
+.feature-card__icon { display: flex; align-items: center; justify-content: center; width: 62rpx; height: 62rpx; margin-bottom: 30rpx; color: var(--color-gold); font-size: 30rpx; border: 1rpx solid rgba(212,175,55,0.34); border-radius: 22rpx; background: rgba(212,175,55,0.08); }
+.feature-card__content { display: flex; flex-direction: column; gap: 12rpx; }
+.feature-card__title { color: var(--color-text-primary); font-size: 34rpx; font-weight: 700; }
+.feature-card__subtitle { color: var(--color-gold-soft); font-size: 26rpx; }
+.feature-card__desc { color: var(--color-text-muted); font-size: 25rpx; line-height: 1.72; }
