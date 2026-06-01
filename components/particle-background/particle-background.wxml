@@ -1,0 +1,5 @@
+<view class="particle-background" aria-hidden="true">
+  <block wx:for="{{particles}}" wx:key="left">
+    <view class="particle" style="left: {{item.left}}%; top: {{item.top}}%; animation-delay: {{item.delay}}s; transform: scale({{item.scale}});" />
+  </block>
+</view>

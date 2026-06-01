@@ -1,0 +1,51 @@
+@import "./styles/tokens.wxss";
+
+page {
+  min-height: 100%;
+  color: var(--color-text-primary);
+  background: var(--color-bg-950);
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+}
+
+view, text, button {
+  box-sizing: border-box;
+}
+
+button {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  background: transparent;
+}
+
+button::after {
+  border: 0;
+}
+
+@keyframes pageFadeUp {
+  from { opacity: 0; transform: translateY(24rpx); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slowRotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes breatheGlow {
+  0%, 100% { opacity: 0.58; transform: scale(0.98); }
+  50% { opacity: 0.9; transform: scale(1.03); }
+}
+
+@keyframes floatParticle {
+  0%, 100% { transform: translate3d(0, 0, 0); opacity: 0.28; }
+  50% { transform: translate3d(12rpx, -28rpx, 0); opacity: 0.68; }
+}
+
+@keyframes shimmerLine {
+  0% { transform: translateX(-120%); opacity: 0; }
+  35% { opacity: 0.62; }
+  100% { transform: translateX(120%); opacity: 0; }
+}

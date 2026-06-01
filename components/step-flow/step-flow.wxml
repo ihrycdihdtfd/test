@@ -1,0 +1,10 @@
+<view class="step-flow">
+  <view class="step-flow__track" />
+  <block wx:for="{{steps}}" wx:key="title">
+    <view class="step-flow__node">
+      <view class="step-flow__orb">{{index + 1}}</view>
+      <text class="step-flow__title">{{item.title}}</text>
+      <text class="step-flow__caption">{{item.caption}}</text>
+    </view>
+  </block>
+</view>

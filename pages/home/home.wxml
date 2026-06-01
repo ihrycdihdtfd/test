@@ -1,0 +1,54 @@
+<view class="home-page">
+  <app-header />
+  <hero-banner bind:restart="handleRestart" bind:daily="handleDaily" />
+
+  <view class="home-page__content">
+    <section-title eyebrow="WHY RESTART" title="一场可以被收藏的人生" caption="不是抽卡页面，而是从命盘、选择到结局的完整仪式。" />
+    <view class="feature-grid">
+      <block wx:for="{{features}}" wx:key="title">
+        <feature-card feature="{{item}}" />
+      </block>
+    </view>
+
+    <view class="home-section home-section--flow">
+      <section-title eyebrow="PATH OF FATE" title="命运不是步骤，是路径" caption="抽命盘 → 做选择 → 看结局，被设计成一条安静发光的命运线。" />
+      <glass-card extraClass="flow-card">
+        <step-flow steps="{{steps}}" />
+      </glass-card>
+    </view>
+
+    <view class="home-section">
+      <section-title eyebrow="FATE TAGS" title="每一次重开，都有新的命格" caption="标签不是属性堆叠，而是给玩家一个想继续探索的理由。" />
+      <view class="tag-cloud">
+        <block wx:for="{{fateTags}}" wx:key="*this">
+          <fate-tag label="{{item}}" />
+        </block>
+      </view>
+    </view>
+
+    <view class="home-section daily-section">
+      <section-title eyebrow="DAILY ORBIT" title="今日也有一条命运线" caption="为后续留存系统预留入口：今日命盘、今日重开与今日命运任务。" />
+      <card-frame>
+        <view class="daily-panel">
+          <view class="daily-panel__header">
+            <text class="daily-panel__label">今日挑战</text>
+            <text class="daily-panel__date">循环第 002 日</text>
+          </view>
+          <view class="daily-list">
+            <block wx:for="{{dailyCards}}" wx:key="label">
+              <view class="daily-item daily-item--{{item.tone}}">
+                <text class="daily-item__label">{{item.label}}</text>
+                <text class="daily-item__value">{{item.value}}</text>
+              </view>
+            </block>
+          </view>
+        </view>
+      </card-frame>
+    </view>
+
+    <view class="home-footer">
+      <text>第一阶段基础工程 · 已预留命盘页 / 事件页 / 结局页扩展结构</text>
+      <text>每一次重开，都是重新理解人生的一种方式。</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,17 @@
+.primary-button {
+  position: relative;
+  min-width: 224rpx;
+  height: 88rpx;
+  padding: 0 44rpx;
+  overflow: hidden;
+  color: #111827;
+  font-size: 30rpx;
+  font-weight: 700;
+  letter-spacing: 2rpx;
+  border-radius: 999rpx;
+  background: linear-gradient(135deg, #F3D98B 0%, #D4AF37 48%, #A9811E 100%);
+  box-shadow: 0 24rpx 52rpx rgba(212, 175, 55, 0.22), inset 0 2rpx 0 rgba(255,255,255,0.44);
+  transition: transform 260ms var(--ease-premium), box-shadow 260ms var(--ease-premium);
+}
+.primary-button--hover { transform: scale(0.97); box-shadow: 0 16rpx 36rpx rgba(212, 175, 55, 0.18); }
+.primary-button__shine { position: absolute; top: 0; left: 0; width: 58%; height: 100%; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.36), transparent); animation: shimmerLine 4.8s ease-in-out infinite; }

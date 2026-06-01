@@ -1,0 +1,4 @@
+<button class="primary-button" hover-class="primary-button--hover" bindtap="handleTap">
+  <text>{{label}}</text>
+  <view class="primary-button__shine" />
+</button>

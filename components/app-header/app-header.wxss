@@ -1,0 +1,7 @@
+.app-header { position: fixed; top: 0; left: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; width: 100%; padding: 32rpx 36rpx 20rpx; background: linear-gradient(180deg, rgba(11,16,32,0.88), rgba(11,16,32,0)); backdrop-filter: blur(18rpx); }
+.app-header__brand { display: flex; align-items: center; gap: 18rpx; }
+.app-header__seal { display: flex; align-items: center; justify-content: center; width: 54rpx; height: 54rpx; color: var(--color-gold); font-size: 28rpx; border: 1rpx solid rgba(212,175,55,0.42); border-radius: 18rpx; background: rgba(212,175,55,0.08); }
+.app-header__copy { display: flex; flex-direction: column; gap: 4rpx; }
+.app-header__title { color: var(--color-text-primary); font-size: 26rpx; font-weight: 600; letter-spacing: 1rpx; }
+.app-header__sub { color: var(--color-text-muted); font-size: 18rpx; letter-spacing: 4rpx; }
+.app-header__nav { display: flex; gap: 28rpx; color: var(--color-text-muted); font-size: 24rpx; }

@@ -1,0 +1,3 @@
+<button class="secondary-button" hover-class="secondary-button--hover" bindtap="handleTap">
+  <text>{{label}}</text>
+</button>
